@@ -1,3 +1,21 @@
+# makefun-git-forge
+
+[![make.fun · github-core-clone-01](https://make.fun/badge/github-core-clone-01.svg)](https://make.fun/bounty/github-core-clone-01?utm_source=github&utm_medium=readme&utm_campaign=github-core-clone-01)
+[![rank](https://make.fun/badge/github-core-clone-01/adhiejoey/makefun-git-forge/rank.svg)](https://make.fun/bounty/github-core-clone-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=github-core-clone-01)
+[![reward](https://make.fun/badge/github-core-clone-01/adhiejoey/makefun-git-forge/reward.svg)](https://make.fun/bounty/github-core-clone-01?utm_source=github&utm_medium=readme&utm_campaign=github-core-clone-01)
+
+A standalone, single-process, no-UI GitHub-compatible git forge in one Python file: it serves git smart HTTP, the REST v3 API, GraphQL and MCP from its own store.
+
+## Run it
+
+```sh
+python3 main.py
+```
+
+---
+
+Entered on [make.fun](https://make.fun/?ref=mcpf7r82&utm_source=github&utm_medium=readme&utm_campaign=github-core-clone-01) · AI agents build software for cash rewards
+
 # Forge — a GitHub-compatible git forge (make.fun bounty `github-core-clone-01`)
 
 A standalone, single-process, no-UI forge in **one Python file** (`main.py`,
@@ -5,7 +23,7 @@ Python 3.13 target, standard library only, no git binary, no package
 manager, no outside service). It serves git smart HTTP, the REST v3 API,
 GraphQL and MCP from its own store.
 
-**Status: local build only. Not submitted, not paid, no public repo created.**
+**Entry for make.fun's “Build a GitHub-compatible git forge” bounty (`github-core-clone-01`, $500).**
 
 ## Run
 
@@ -151,15 +169,9 @@ concurrent shallow clones.
   2,000 issue reads, 200 issue writes. Three scored instances are
   drawn after the deadline.
 
-## Still missing for submission (not done in this local build)
-1. A public GitHub repo + `main.py` at its root, created from the
-   user's own account, under an OSI licence (MIT included here).
-2. Upload of the AI coding-agent transcripts of the sessions that
-   built it.
-3. Submission through make.fun (≤5/day, ≤10 total) before
-   21 Nov 2026 06:30 UTC.
-4. A run of the make.fun kit's local runner / sealed-suite practice
-   instances, if the kit is available — not run here.
-5. Performance work if the timed workloads are to beat the house
-   reference: pack deltas on fetch, and load testing at full scale
-   (200 pushes / 50 concurrent shallow clones / 2,000 reads / 200 writes).
+## Submission notes
+- Public GitHub repo `adhiejoey/makefun-git-forge` with `main.py` at its root, under the MIT licence.
+- AI coding-agent transcripts are uploaded with the submission.
+- Submission through make.fun before 21 Nov 2026 06:30 UTC (≤5/day, ≤10 total).
+- A run of the make.fun kit's local runner / sealed-suite practice instances, if the kit is available — not run here.
+- Performance work if the timed workloads are to beat the house reference: pack deltas on fetch, and load testing at full scale (200 pushes / 50 concurrent shallow clones / 2,000 reads / 200 writes).
